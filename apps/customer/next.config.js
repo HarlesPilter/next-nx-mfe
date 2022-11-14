@@ -44,7 +44,8 @@ const nextConfig = {
           exposePages: true,
           enableImageLoaderFix: true,
           enableUrlLoaderFix: true,
-          automaticPageStitching: true
+          automaticPageStitching: true,
+          automaticAsyncBoundary: true
         }
       })
     );
